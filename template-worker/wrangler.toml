@@ -1,0 +1,6 @@
+name = "template-worker"
+compatibility_date = "2022-11-18"
+main = "build/worker/shim.mjs"
+
+[build]
+command = "cargo install -q worker-build && worker-build --release"

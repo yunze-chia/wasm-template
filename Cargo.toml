@@ -1,0 +1,9 @@
+[workspace]
+
+members = [
+    "template-app",
+    "template-worker"
+]
+
+[profile.release]
+opt-level = "s"
