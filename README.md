@@ -1,11 +1,17 @@
 # Wasm Template
-Templates for bootstrapping egui and Cloudflare Workers projects.
+Templates for bootstrapping egui, Yew or Cloudflare Workers projects.
 
 ## Quickstart
 
 ```sh
 cargo install trunk
-cd template-app
+cd template-egui-app
+trunk serve
+```
+
+```sh
+cargo install trunk
+cd template-yew-app
 trunk serve
 ```
 

@@ -1,8 +1,9 @@
 [workspace]
 
 members = [
-    "template-app",
-    "template-worker"
+    "template-egui-app",
+    "template-worker",
+    "template-yew-app"
 ]
 
 [profile.release]
